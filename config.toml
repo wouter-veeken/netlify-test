@@ -1,0 +1,15 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+title = "Just Docs theme"
+languageCode = "en-us"
+
+
+[params]
+    # supported values: "monokai", "github"
+    codeTheme = "monokai"
+
+[[menu.main]]
+    name = "Docs Home"
+    identifier = "docs home"
+    pre = "<i class='fa fa-home'></i>"
+    url = "/home"
+    weight = -220
