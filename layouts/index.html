@@ -4,4 +4,17 @@
     <!-- Add a custom home page here, or redirect right into the main docs (if you're first page is not /home, update the url below accordingly)-->
     <meta http-equiv="REFRESH" content="0;url=home">
   </head>
+  <body>
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+  </script>
+  </body>
 </html>
