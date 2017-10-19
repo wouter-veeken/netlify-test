@@ -1,15 +1,15 @@
-baseURL = "https://gambler-parks-44416.netlify.com/"
+baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
 title = "Hugo Learn Documentation"
 theme = "hugo-theme-learn"
-themesdir = "themes"
+themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/wouter-veeken/netlify-test/content/"
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
   description = "Documentation for Hugo Learn Theme"
   author = "Mathieu Cornic"
   showVisitedLinks = true
