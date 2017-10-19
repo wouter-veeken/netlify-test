@@ -1,4 +1,4 @@
-baseURL = "https://gambler-parks-44416.netlify.com/"
+baseURL = "http://example.com/"
 languageCode = "en-us"
 title = "Minimal"
 theme = "minimal"
